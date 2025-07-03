@@ -1,0 +1,117 @@
+footer {
+    padding: $padding160;
+
+    .inner {
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            font-size: $title-small;
+        }
+
+        .footer-contact-box {
+            width: 520px;
+            height: 200px;
+            border-radius: $br20;
+            background-color: $main-silver;
+            margin: auto;
+            margin-top: 40px;
+            padding: 40px;
+
+            h5 {
+                cursor: pointer;
+                margin: $margin10;
+                position: relative;
+                display: inline-block;
+
+                &::before {
+                    content: attr(data-tooltip);
+                    position: absolute;
+                    top: -28px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    background-color: #222;
+                    color: #fff;
+                    font-size: 12px;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    white-space: nowrap;
+                    opacity: 0;
+                    pointer-events: none;
+                    transition: opacity 0.2s ease;
+                    z-index: 10;
+                }
+
+                &:hover::before {
+                    opacity: 1;
+                }
+
+                .copy-msg {
+                    color: green;
+                    font-size: 12px;
+                    margin-left: 8px;
+                }
+
+                b {
+                    display: inline-block;
+                    width: 85px;
+                    height: auto;
+                    margin-right: 20px;
+                    margin-left: 5px;
+                }
+            }
+        }
+
+        .mouse-tooltip {
+            position: fixed;
+            top: 0;
+            left: 0;
+            transform: translate(-50%, -100%);
+            padding: 6px 10px;
+            background-color: #111;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s ease, visibility 0s 0.2s;
+            z-index: 9999999;
+        }
+    }
+
+}
+
+@media (max-width : 500px) {
+    footer {
+
+        .inner {
+            h2 {
+                text-align: center;
+                font-weight: 600;
+                font-size: $subTitle;
+            }
+
+            .footer-contact-box {
+                width: 85%;
+
+                height: 170px;
+
+                h5 {
+                    cursor: pointer;
+                    margin: $margin10;
+                    font-size: $txt;
+
+                    b {
+                        display: inline-block;
+                        width: 80px;
+                        height: auto;
+                        margin-right: 0px;
+                        margin-left: 5px;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

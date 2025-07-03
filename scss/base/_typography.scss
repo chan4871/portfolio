@@ -1,0 +1,65 @@
+body,
+button,
+input,
+textarea,
+select,
+a {
+  font-family: $primary-kr, $primary-en;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $primary-kr, $primary-en;
+  font-weight: 400;
+}
+
+
+p,
+li,
+blockquote {
+  font-family: $primary-kr, $primary-en;
+}
+
+
+button {
+  font-family: $primary-kr, $primary-en;
+}
+
+input,
+textarea,
+select {
+  font-family: $primary-kr, $primary-en;
+}
+
+// Font Sizes (기준: 1rem = 20px)
+h1 {
+  font-size: $title;
+}
+
+h2 {
+  font-size: $title-small;
+}
+
+h3 {
+  font-size: $subTitle;
+}
+
+h4 {
+  font-size: $subTitle-small;
+}
+
+h5 {
+  font-size: $body-megaTitle;
+}
+
+h6 {
+  font-size: $body-title;
+}
+
+p {
+  font-size: $body;
+}

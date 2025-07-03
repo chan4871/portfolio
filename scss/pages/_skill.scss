@@ -1,0 +1,372 @@
+.skill-section {
+    padding-top: 160px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 20px;
+
+    .inner {
+        width: 90%;
+
+        .title {
+            h4 {
+                color: $title-color;
+            }
+
+            h2 {
+                color: $main-black;
+                margin: $margin10;
+            }
+        }
+
+        .content-desk {
+            margin-top: 200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+
+            width: 100%;
+
+            .skill-backend {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 15%;
+
+                img {
+                    width: 100%;
+                    transition: .2s;
+
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+
+            .skill-deployment {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 15%;
+
+                img {
+                    width: 100%;
+                    transition: .2s;
+
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+
+            .skill-design {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 15%;
+
+                img {
+                    width: 100%;
+                    transition: .2s;
+
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+
+            .skill-libraries {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 15%;
+
+                img {
+                    width: 100%;
+                    transition: .2s;
+
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+
+            .skill-frontend {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 15%;
+
+                img {
+                    width: 100%;
+                    transition: .2s;
+
+                    &:hover {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+
+        .content-media {
+            display: none;
+        }
+    }
+
+    .skill-bg-desk {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+        width: 100%;
+        height: 60%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+
+    }
+
+    .skill-bg-media {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: -1;
+        width: 100%;
+        height: 60%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+
+    }
+}
+
+@media (max-width : 500px) {
+    .skill-section {
+        padding-top: 160px;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 20px;
+
+        .inner {
+            width: 80%;
+
+            .title {
+                h4 {
+                    color: $title-color;
+                }
+
+                h2 {
+                    color: $main-black;
+                    margin: $margin10;
+                }
+            }
+
+            .content-desk {
+                display: none !important;
+                margin-top: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+
+
+                .skill-backend {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-deployment {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-design {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-libraries {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-frontend {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+            }
+
+            .content-media {
+                margin-top: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: end;
+
+
+                .skill-backend {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-deployment {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-design {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-libraries {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+                .skill-frontend {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    img {
+                        transition: .2s;
+
+                        &:hover {
+                            transform: translateY(-5px);
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .skill-bg-desk {
+
+
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: -1;
+            width: 100%;
+            height: 60%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+
+
+        }
+
+        .skill-bg-media {
+
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: -1;
+            width: 100%;
+            height: 60%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+
+
+        }
+    }
+}

@@ -1,0 +1,17 @@
+// 1. 설정 초기화 및 기본 스타일
+@import 'base/_variables';
+@import 'base/_reset';
+@import 'base/_fonts';
+@import 'base/_typography';
+
+// 2. 레이아웃
+@import 'layout/_header';
+@import 'layout/_footer';
+
+// 3. 페이지 섹션
+@import 'pages/_competency';
+@import 'pages/_intro';
+@import 'pages/_log';
+@import 'pages/_popup';
+@import 'pages/_project';
+@import 'pages/_skill';

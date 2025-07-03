@@ -1,0 +1,78 @@
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color: $white;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.inner {
+  width: 1280px;
+  padding: $padding70;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 16px;
+  }
+
+
+
+  .inner {
+    width: 85%;
+    padding: 0;
+  }
+}
+
+/* 제목, 문단 등 기본 마진/패딩 제거 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* 버튼 커서 포인터 */
+button {
+  all: unset;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+
+/* input 기본 테두리 제거 */
+input {
+  border: none;
+  outline: none;
+}

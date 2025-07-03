@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- 파비콘 -->
+    <link rel="icon" href="images/icon.png">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="inner">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="로고이미지">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#project-section">프로젝트</a></li>
+                    <li><a href="#skill-section">기술</a></li>
+                    <li><a href="#competency-section">핵심역량</a></li>
+                    <li><a href="#log-section">기록</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="contact">연락처</a>
+            <button class="menu-bar" aria-label="메뉴 열기"><iconify-icon
+                    icon="material-symbols-light:menu-rounded"></iconify-icon></button>
+            <div class="mobile-nav">
+                <button class="close-btn" aria-label="닫기">
+                    <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+                </button>
+                <ul>
+                    <li><a href="#project-section">프로젝트</a></li>
+                    <li><a href="#skill-section">기술</a></li>
+                    <li><a href="#competency-section">핵심역량</a></li>
+                    <li><a href="#log-section">기록</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <!-- intro -->
+        <section class="intro-section" id="intro-section">
+            <div class="inner">
+                <div class="intro-box">
+                    <h1 class="title">안녕하세요,<br>
+                        프론트엔드 개발자 이미숙입니다.</h1>
+                    <h3 class="subTitle">“새로운 도전을 두려워하지 않고, 책임감 있게 일합니다.”</h3>
+                    <div class="btn-box">
+                        <a href="resume.zip" download="resume.zip" class="resume-btn">
+                            <p>이력서</p>
+                            <iconify-icon icon="material-symbols:download-rounded" width="20px"
+                                height="20px"></iconify-icon>
+                        </a>
+                        <button class="profile-popup">
+                            <p>프로필</p>
+                            <iconify-icon icon="material-symbols:person-outline-rounded" width="20px"
+                                height="20px"></iconify-icon>
+                        </button>
+                    </div>
+                </div>
+                <div class="downAni">
+                    <img src="images/down.png" alt="아래스크롤하기">
+                </div>
+            </div>
+        </section>
+        <!-- project -->
+        <section class="project-section" id="project-section">
+            <div class="inner">
+                <div class="title">
+                    <h4 class="subTitle-small">프로젝트</h4>
+                    <h2 class="title-small">프로젝트의 주요 사항들을<br>확인해 볼 수 있습니다.</h2>
+                </div>
+                <div class="content">
+                    <div class="input-box-all input-box">
+
+                        <label><input type="checkbox" name="filter" value="all" checked>전체</label>
+                        <label><input type="checkbox" name="filter" value="team">팀 프로젝트</label>
+                        <label><input type="checkbox" name="filter" value="personal">개인 프로젝트</label>
+                    </div>
+                    <div class="input-box-skill input-box">
+
+                        <label><input type="checkbox" name="filter" value="html">HTML</label>
+
+                        <label><input type="checkbox" name="filter" value="css">CSS</label>
+
+                        <label><input type="checkbox" name="filter" value="scss">SCSS</label>
+
+                        <label><input type="checkbox" name="filter" value="js">JS</label>
+
+                        <label><input type="checkbox" name="filter" value="react">REACT</label>
+                    </div>
+                    <div class="project-list">
+                        <div class="project-box project-box01" data-filter="team html scss js">
+                            <img src="images/desk-knotted.png" alt="프로젝트 이미지" class="desk">
+                            <div class="mockup-wrap">
+                                <img src="images/knotted-desk.png" class="page-img01" alt="">
+                            </div>
+
+                            <button class="Project-popup-btn01">
+                                <span>미리보기</span>
+                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="project-box project-box02" data-filter="team html scss js">
+                            <img src="images/desk-aomg.png" alt="프로젝트 이미지" class="desk">
+                            <div class="mockup-wrap">
+                                <img src="images/aomg-desk.png" class="page-img02" alt="">
+                            </div>
+
+                            <button class="Project-popup-btn02">
+                                <span>미리보기</span>
+                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="project-box project-box03" data-filter="personal html scss js">
+                            <img src="images/desk-ebs.png" alt="프로젝트 이미지" class="desk">
+                            <div class="mockup-wrap">
+                                <img src="images/ebs-desk.png" class="page-img03" alt="">
+                            </div>
+
+                            <button class="Project-popup-btn03">
+                                <span>미리보기</span>
+                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
+                            </button>
+                        </div>
+                        <div class="project-box project-box04" data-filter="personal html css js">
+                            <img src="images/desk-kams.png" alt="프로젝트 이미지" class="desk">
+                            <div class="mockup-wrap">
+                                <img src="images/kams-desk.png" class="page-img04" alt="">
+                            </div>
+
+                            <button class="Project-popup-btn04">
+                                <span>미리보기</span>
+                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
+                            </button>
+                        </div>
+                        <h5>다양한 사용자가 ‘편안하게 이용할 수 있는 구성’에<br>중점을 두어 페이지 흐름을 설계했습니다.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill -->
+        <section class="skill-section" id="skill-section">
+            <div class="inner">
+                <div class="title">
+                    <h4 class="subTitle-small">기술</h4>
+                    <h2 class="title-small">배움에 거리낌 없으며,<br>
+                        빠르게 성장하고 적용합니다.</h2>
+                </div>
+                <div class="content-desk">
+                    <div class="skill-backend">
+                        <div class="C">
+                            <img src="images/C.png" alt="기술이미지">
+
+                        </div>
+                        <div class="JAVA">
+                            <img src="images/JAVA.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-deployment">
+                        <div class="GITHUB">
+                            <img src="images/GITHUB.png" alt="기술이미지">
+                        </div>
+                        <div class="GIT">
+                            <img src="images/GIT.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-design">
+                        <div class="Photoshop">
+                            <img src="images/Photoshop.png" alt="기술이미지">
+                        </div>
+                        <div class="Illustrator">
+                            <img src="images/Illustrator.png" alt="기술이미지">
+                        </div>
+                        <div class="FIGMA">
+                            <img src="images/FIGMA.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-libraries">
+                        <div class="REACT">
+                            <img src="images/REACT.png" alt="기술이미지">
+                        </div>
+                        <div class="SCSS">
+                            <img src="images/SCSS.png" alt="기술이미지">
+                        </div>
+                        <div class="GSAP">
+                            <img src="images/GSAP.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-frontend">
+                        <div class="HTML">
+                            <img src="images/HTML.png" alt="기술이미지">
+                        </div>
+                        <div class="CSS">
+                            <img src="images/CSS.png" alt="기술이미지">
+                        </div>
+                        <div class="JS">
+                            <img src="images/JS.png" alt="기술이미지">
+                        </div>
+                        <div class="BOOTSTRAP">
+                            <img src="images/BOOTSTRAP.png" alt="기술이미지">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-media">
+                    <div class="skill-backend">
+                        <div class="C">
+                            <img src="images/m-c.png" alt="기술이미지">
+
+                        </div>
+                        <div class="JAVA">
+                            <img src="images/m-java.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-deployment">
+                        <div class="GITHUB">
+                            <img src="images/m-github.png" alt="기술이미지">
+                        </div>
+                        <div class="GIT">
+                            <img src="images/m-git.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-design">
+                        <div class="Photoshop">
+                            <img src="images/m-ps.png" alt="기술이미지">
+                        </div>
+                        <div class="Illustrator">
+                            <img src="images/m-Ai.png" alt="기술이미지">
+                        </div>
+                        <div class="FIGMA">
+                            <img src="images/m-figma.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-libraries">
+                        <div class="REACT">
+                            <img src="images/m-React.png" alt="기술이미지">
+                        </div>
+                        <div class="SCSS">
+                            <img src="images/m-SCSS.png" alt="기술이미지">
+                        </div>
+                        <div class="GSAP">
+                            <img src="images/m-GSAP.png" alt="기술이미지">
+                        </div>
+                    </div>
+                    <div class="skill-frontend">
+                        <div class="HTML">
+                            <img src="images/m-HTML.png" alt="기술이미지">
+                        </div>
+                        <div class="CSS">
+                            <img src="images/m-CSS.png" alt="기술이미지">
+                        </div>
+                        <div class="JS">
+                            <img src="images/m-JS.png" alt="기술이미지">
+                        </div>
+                        <div class="BOOTSTRAP">
+                            <img src="images/m-BootStrap.png" alt="기술이미지">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-bg-desk">
+                <img src="images/skill-bg.png" alt="기술섹션배경">
+            </div>
+            <div class="skill-bg-media">
+                <img src="images/m-skill-bg.png" alt="기술섹션배경">
+            </div>
+        </section>
+        <!-- competency -->
+        <section class="competency-section" id="competency-section">
+            <div class="inner">
+                <div class="title">
+                    <h4 class="subTitle-small">핵심역량</h4>
+                    <h2 class="title-small">단단하게 쌓은 경험이<br>
+                        문제 해결의 힘이 됩니다.</h2>
+                </div>
+                <div class="content">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h5 class="accordion-title">“기본에 충실한 접근성 중심 웹 개발”</h5>
+                                <button class="accordion-toggle">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="accordion-content">
+                                <p> 웹 표준과 접근성 준수는 웹 개발의 기본이자 핵심 요소입니다. 모든 사용자가 불편 없이 웹에 접근할 수 있도록 보장하기 때문입니다. 저는 공공기관
+                                    프로젝트를 수행하며 시맨틱 HTML과 반응형 디자인을 적용해 안정적인 사용자 경험을 제공했습니다. 이를 통해 기본에 충실한 사용자 중심 웹 개발 역량을
+                                    갖추게 되었습니다.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h5 class="accordion-title">“효율을 위한 구조적 사고와 실무 중심 커뮤니케이션”</h5>
+                                <button class="accordion-toggle">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="accordion-content">
+                                <p>팀 프로젝트에서 구조적인 협업 능력을 발휘한 경험이 있습니다.
+                                    작업 효율은 명확한 파일 구조와 역할 정리가 핵심임을 직접 느꼈고, 노티드 도넛 프로젝트에서는 팀장으로써 SCSS 모듈화를 통해 스타일 관리의 혼선을
+                                    줄였으며, AOMG 프로젝트에서는 폴더 구조 정리를 통해 팀 간 통합 작업을 원활하게 했습니다. 이를 통해 협업 환경을 정돈하고, 팀 전체의 개발
+                                    흐름을 개선하는 역량을 키웠습니다.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <h5 class="accordion-title">“React.js 기반 컴포넌트 중심 UI 개발 경험”</h5>
+                                <button class="accordion-toggle">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </div>
+                            <div class="accordion-content">
+                                <p> React.js를 활용해 컴포넌트 단위로 재사용성과 유지보수성을 고려한 UI를 설계하고 구현한 경험이 있습니다. 상태 관리 훅(useState,
+                                    useEffect)을 적극 사용하며 동적인 사용자 인터페이스를 구현했고, React Router로 화면 간 원활한 라우팅을 적용했습니다.
+                                    또한 사용자 경험을 최우선으로 하는 모던 프론트엔드 개발 방식을 익히며, 유지보수성과 사용자 중심 UI 구현에 강점을 가진 개발자로 성장하고 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- log -->
+        <section class="log-section" id="log-section">
+            <div class="inner">
+                <div class="title">
+                    <h4 class="subTitle-small">기록</h4>
+                    <h2 class="title-small">배운 것을 남기고,<br>
+                        함께 성장하길 좋아합니다.</h2>
+
+                </div>
+                <div class="content">
+                    <div class="log-box">
+                        <img src="images/log01.png" alt="기록_배경이미지">
+                        <p>React CourseCard<br>컴포넌트 만들기<span class="more">자세히보기 >></span></p>
+
+                    </div>
+                    <div class="log-box">
+                        <img src="images/log02.png" alt="기록_배경이미지">
+                        <p>React에서 이미지 사용법<br>
+                            : src, public, 외부 URL 활용법<span class="more">자세히보기 >></span></p>
+
+                    </div>
+                    <div class="log-box">
+                        <img src="images/log03.png" alt="기록_배경이미지">
+                        <p>useState<br>
+                            완전 정리<span class="more">자세히보기 >></span></p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer id="contact">
+        <div class="inner">
+            <h2>
+                감사합니다.<br>
+                좋은 인연으로 이어지길 기대합니다.<br>
+                언제든 편하게 연락 주세요.
+            </h2>
+            <div class="footer-contact-box">
+                <h5 class="hover-target email" data-tooltip="클릭 시 복사" data-copy="chan4871@gmail.com">
+                    <b>이메일</b>chan4871@gmail.com </h5>
+                <span class="copy-msg"></span>
+                <h5 class="hover-target phone" data-tooltip="클릭 시 복사" data-copy="010-4282-4871"><b>전화번호</b>010-4282-4871
+                </h5>
+                <span class="copy-msg"></span>
+                <h5 class="hover-target git" data-tooltip="깃허브 열기"><b>깃허브</b><a href="https://github.com/chan4871"
+                        target="_blank">https://github.com/chan4871</a> </h5>
+            </div>
+
+        </div>
+    </footer>
+    
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup-profile">
+        <div class="popup-inner">
+            <div class="profile-content01">
+                <div class="title">
+                    <h4 class="subTitle-small">경력사항</h4>
+                    <h2 class="title-small">사람을 향하던 진심이<br>
+                        사용자 중심 인터페이스로 이어집니다.</h2>
+                </div>
+                <div class="content">
+                    <div class="content-img">
+                        <img src="images/profile01.png" alt="프로필 이미지">
+                    </div>
+                    <div class="content-text">
+                        <h6><b>엑스포유치원</b> | 2020.03 ~ 2025.03</h6>
+                        <ul>
+                            <li> · 연 2회, 4주간의 ‘프로젝트 교수법’ 기반 수업 기획 및 운영</li>
+                            <li> · 유아 중심의 활동 설계와 창의적 교육 콘텐츠 개발을 주도</li>
+                            <li> · 학부모 대상 상담 및 커뮤니케이션 업무 경험</li>
+                            <li> · 5~15명 규모의 교사 팀과의 협업을 통한 수업 및 행사 기획 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-content02">
+                <div class="title">
+                    <h4 class="subTitle-small">가치관</h4>
+                    <h2 class="title-small">새는 날아가면서<br>
+                        뒤돌아보지 않는다.</h2>
+                </div>
+                <div class="content">
+                    <div class="content-img">
+                        <img src="images/profile02.png" alt="가치관 관련 도서">
+                    </div>
+                    <div class="content-text">
+                        <h6><b>이해 | 믿음 | 성장</b> </h6>
+                        <span>사람을 이해하고, 자신을 믿으며 앞으로 나아가는 태도를 소중하게 생각합니다. <br>
+                            소통은 존중에서 시작되고, 신뢰는 그 이해에서 비롯된다고 믿습니다. <br>또한 변화와 도전 속에서도 흔들림 없이 나아가는 것,<br>그 과정이 저를 성장하게
+                            합니다.</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="popup-close-btn">
+            <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+        </button>
+    </div>
+    <div class="popup-project popup-project01">
+        <div class="popup-project-inner">
+            <div class="popup-img">
+                <img src="images/popup-knottde.png" alt="프로젝트 이미지">
+            </div>
+            <div class="popup-text">
+                <div class="popup-text-top">
+                    <h2 class="title-knotted">knotted_원페이지 리뉴얼</h2>
+                    <h5>도넛 브랜드 노티드의 웹 사이트를 사용자 중심의 원페이지 형태로 재구성한 <b>3명의 팀 프로젝트</b>입니다.</h5>
+                    <div class="link-list">
+                        <p>링크</p>
+                        <a href="https://github.com/chan4871" target="_blank" class="link-box link-readme">READMD</a>
+                        <a href="https://chan4871.github.io/Knotted/" target="_blank"
+                            class="link-box link-homepage knotted">HOMEPAGE</a>
+                    </div>
+                </div>
+                <div class="popup-text-middle">
+                    <p><b>기간</b><span>6월 17일 - 6월 19일 (3일 소요)</span></p>
+                    <p><b>역할</b><span>팀장</span></p>
+                    <p><b>담당 섹션</b><span>메인페이지 : side, main-slide, intro, header </span></p>
+                    <p><b></b><span>서브페이지 : 로그인, 이벤트, 브랜드</span></p>
+                    <p><b>사용 기술</b><span>HTML,SCSS,JavaScript</span></p>
+                </div>
+                <div class="popup-text-bottom">
+                    <p><b>문제</b><span></span></p><br>
+                    <p><b>해결 방법</b><span></span></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="close-btn-Project01">
+            <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+        </button>
+    </div>
+    <div class="popup-project popup-project02">
+        <div class="popup-project-inner">
+            <div class="popup-img">
+                <img src="images/popup-aomg.png" alt="">
+            </div>
+            <div class="popup-text">
+                <div class="popup-text-top">
+                    <h2 class="title-aomg">AOMG_홈페이지 리뉴얼</h2>
+                    <h5>AOMG 레이블의 기존 웹사이트 구조를 개선하고, 브랜드 감성과 사용자 경험을 강화한 <b>3명의 팀 프로젝트</b>입니다.</h5>
+                    <div class="link-list">
+                        <p>링크</p>
+                        <a href="https://github.com/chan4871" target="_blank" class="link-box link-readme">READMD</a>
+                        <a href="https://chan4871.github.io/aomg/" target="_blank"
+                            class="link-box link-homepage aomg">HOMEPAGE</a>
+                    </div>
+                </div>
+                <div class="popup-text-middle">
+                    <p><b>기간</b><span>5월 14일 - 6월 11일 (주말제외, 총 18일 소요)</span></p>
+                    <p><b>역할</b><span>팀원</span></p>
+                    <p><b>담당 섹션</b><span>메인페이지 : header, artist, news </span></p>
+                    <p><b> </b><span>서브페이지 : schedule, news</span></p>
+                    <p><b>사용 기술</b><span>HTML,scss,javascript,gsap,aos</span></p>
+                </div>
+                <div class="popup-text-bottom">
+                    <p><b>문제</b><span></span></p><br>
+                    <p><b>해결 방법</b><span></span></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="close-btn-Project02">
+            <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+        </button>
+    </div>
+    <div class="popup-project popup-project04">
+        <div class="popup-project-inner">
+            <div class="popup-img">
+                <img src="images/popup-kams.png" alt="">
+            </div>
+            <div class="popup-text">
+                <div class="popup-text-top">
+                    <h2 class="title-kams">예술경영지원센터_공공기관</h2>
+                    <h5>예술경영지원센터의 웹 사이트를 공공기관 특성을 반영해 UI/UX를 개선한 <b>개인 프로젝트</b>입니다.</h5>
+                    <div class="link-list">
+                        <p>링크</p>
+                        <a href="https://github.com/chan4871" target="_blank" class="link-box link-readme">READMD</a>
+                        <a href="https://chan4871.github.io/kams/" target="_blank"
+                            class="link-box link-homepage kams">HOMEPAGE</a>
+                    </div>
+                </div>
+                <div class="popup-text-middle">
+                    <p><b>기간</b><span>4월 28일 - 4월 30일 (3일 소요)</span></p>
+
+                    <p><b>개선 부분</b><span>메인페이지 전체</span></p>
+                    <p><b> </b><span>서브페이지 : 로그인, 공지사항</span></p>
+                    <p><b>사용 기술</b> <span>HTML, css, javascript</span></p>
+                </div>
+                <div class="popup-text-bottom">
+                    <p><b>문제</b><span></span></p><br>
+                    <p><b>해결 방법</b><span></span></p>
+                </div>
+            </div>
+        </div>
+
+        <button class="close-btn-Project04">
+            <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+        </button>
+    </div>
+    <div class="popup-project popup-project03">
+        <div class="popup-project-inner">
+            <div class="popup-img">
+                <img src="images/popup-ebs.png" alt="">
+            </div>
+            <div class="popup-text">
+                <div class="popup-text-top">
+                    <h2 class="title-ebs">EBS_ 홈페이지 리뉴얼</h2>
+                    <h5>공영 교육방송 EBS의 웹 사이트의 정보 구조를 분석하고 재해석한 <b>개인 프로젝트</b>입니다.</h5>
+                    <div class="link-list">
+                        <p>링크</p>
+                        <a href="https://github.com/chan4871/" target="_blank" class="link-box link-readme">READMD</a>
+                        <a href="https://chan4871.github.io/ebs-master/" target="_blank"
+                            class="link-box link-homepage ebs">HOMEPAGE</a>
+                    </div>
+                    <br>
+                    <div class="popup-text-middle">
+                        <p><b>기간</b><span>5월 7일 - 5월 9일 (2일 소요)</span></p>
+                        <p><b>개선 부분</b><span>메인페이지 전체</span></p>
+                        <p><b>사용 기술</b><span>HTML, css, javascript</span></p>
+                    </div>
+                    <div class="popup-text-bottom">
+                        <p><b>문제</b><span></span></p><br>
+                        <p><b>해결 방법</b><span></span></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <button class="close-btn-Project03">
+            <iconify-icon icon="material-symbols-light:close-rounded"></iconify-icon>
+        </button>
+    </div>
+
+    <script src="./js/header.js"></script>
+    <script src="./js/intro.js"></script>
+    <script src="./js/project.js"></script>
+    <script src="./js/competency.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/popup.js"></script>
+</body>
+
+</html>

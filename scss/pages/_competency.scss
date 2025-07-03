@@ -1,0 +1,147 @@
+.competency-section {
+    margin: $margin160;
+    height: max-content;
+
+    .inner {
+        height: 100%;
+
+        .title {
+            text-align: center;
+
+            h4 {
+                color: $title-color;
+            }
+
+            h2 {
+                color: $main-black;
+                margin: $margin10;
+            }
+        }
+
+        .content {
+            width: 960px;
+            height: max-content;
+            border: $border-silver02;
+            border-radius: $br8;
+            margin: auto;
+            margin-top: 80px;
+
+            .accordion {
+
+                .accordion-item {
+                    .accordion-header {
+                        border-bottom: $border-silver01;
+                        display: flex;
+                        padding: 20px;
+                        justify-content: space-between;
+                        cursor: pointer;
+
+                        h5 {
+                            font-size: $body-megaTitle;
+                            font-weight: 600;
+                            color: $main-black;
+                        }
+
+                        button {
+                            i {
+                                color: $main-black;
+                            }
+                        }
+                    }
+
+                    .accordion-content {
+                        border-bottom: 1px solid #3E3E3E;
+                        max-height: 0;
+                        overflow: hidden;
+                        padding: 0 20px;
+                        transition: max-height 0.5s ease, padding 0.3s ease;
+
+
+                        &.active {
+                            padding: 20px;
+                        }
+
+                        p {
+                            color: $main-black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .competency-section {
+        margin: $margin160;
+        height: max-content;
+
+        .inner {
+            height: 100%;
+
+            .title {
+                text-align: center;
+
+                h4 {
+                    color: $title-color;
+                }
+
+                h2 {
+                    color: $main-black;
+                    margin: $margin10;
+                }
+            }
+
+            .content {
+                width: 100%;
+                height: max-content;
+                border: $border-silver02;
+                border-radius: $br8;
+                margin: auto;
+                margin-top: 80px;
+
+                .accordion {
+
+                    .accordion-item {
+                        .accordion-header {
+                            border-bottom: $border-silver01;
+                            display: flex;
+                            padding: 20px;
+                            justify-content: space-between;
+                            cursor: pointer;
+
+                            h5 {
+                                font-size: $body-title;
+                                font-weight: 600;
+                                color: $main-black;
+                            }
+
+                            button {
+                                i {
+                                    color: $main-black;
+                                }
+                            }
+                        }
+
+                        .accordion-content {
+                            border-bottom: 1px solid #3E3E3E;
+                            max-height: 0;
+                            overflow: hidden;
+                            padding: 0 20px;
+                            transition: max-height 0.5s ease, padding 0.3s ease;
+
+
+                            &.active {
+                                padding: 20px;
+                            }
+
+                            p {
+                                color: $main-black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

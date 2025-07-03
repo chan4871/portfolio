@@ -1,0 +1,206 @@
+main {
+    .intro-section {
+        height: 100vh;
+
+        .inner {
+            height: 100%;
+
+            .intro-box {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+
+                h1 {
+                    font-weight: 600;
+                    color: $main-black;
+                }
+
+                h3 {
+                    margin: $margin20;
+                    color: $silver-black;
+                }
+
+                .btn-box {
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 40px;
+                    justify-content: center;
+
+                    button,
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: $br8;
+                        width: 120px;
+                        height: 45px;
+                        background-color: $main-black;
+                        opacity: .8;
+                        color: $white;
+                        transition: .2s;
+
+                        &:hover {
+                            opacity: 1;
+                            outline: 1px solid $main-black;
+                        }
+                    }
+                }
+            }
+
+            .downAni {
+
+
+                img {
+                    position: absolute;
+                    bottom: 80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    animation: downAni 8s ease-in-out infinite;
+                }
+
+                @keyframes downAni {
+                    0% {
+                        transform: translateX(-50%) translateY(0);
+                        opacity: 1;
+                    }
+
+                    10% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    20% {
+                        transform: translateX(-50%) translateY(0px);
+                    }
+
+                    30% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    40% {
+                        transform: translateX(-50%) translateY(0px);
+                    }
+
+                    50% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    60% {
+                        transform: translateX(-50%) translateY(0px);
+                        opacity: 1;
+                    }
+
+                    70% {
+                        opacity: 0;
+                        /* 서서히 사라짐 시작 */
+                    }
+
+                    85% {
+                        opacity: 0;
+                        /* 사라진 상태 유지 */
+                    }
+
+                    100% {
+                        opacity: 1;
+                        /* 다시 나타남 */
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .intro-section {
+        .inner {
+            .intro-box {
+                width: 85%;
+
+                h1 {
+                    font-size: 32px;
+                }
+
+                h3 {
+
+                    font-size: 18px;
+                }
+
+                .btn-box {
+
+                    button,
+                    a {
+                        height: 35px !important;
+
+                    }
+                }
+            }
+
+            .downAni {
+
+
+                img {
+                    position: absolute;
+                    bottom: 80px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    animation: downAni 8s ease-in-out infinite;
+                }
+
+                @keyframes downAni {
+                    0% {
+                        transform: translateX(-50%) translateY(0);
+                        opacity: 1;
+                    }
+
+                    10% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    20% {
+                        transform: translateX(-50%) translateY(0px);
+                    }
+
+                    30% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    40% {
+                        transform: translateX(-50%) translateY(0px);
+                    }
+
+                    50% {
+                        transform: translateX(-50%) translateY(10px);
+                    }
+
+                    60% {
+                        transform: translateX(-50%) translateY(0px);
+                        opacity: 1;
+                    }
+
+                    70% {
+                        opacity: 0;
+                        /* 서서히 사라짐 시작 */
+                    }
+
+                    85% {
+                        opacity: 0;
+                        /* 사라진 상태 유지 */
+                    }
+
+                    100% {
+                        opacity: 1;
+                        /* 다시 나타남 */
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}

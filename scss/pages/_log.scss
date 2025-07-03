@@ -1,0 +1,112 @@
+.log-section {
+    padding: $padding160;
+    background-color: $main-silver;
+
+    .inner {
+        .title {
+            h4 {
+                color: $title-color;
+            }
+
+            h2 {
+                margin: $margin10;
+                color: $main-black;
+            }
+        }
+
+        .content {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+            .log-box {
+                width: 367px;
+                height: 232px;
+                border-radius: $br20;
+                overflow: hidden;
+                position: relative;
+                transition: .2s;
+                cursor: pointer;
+
+                &:hover {
+                    transform: scale(1.02);
+                }
+
+                &:hover span {
+                    opacity: 0.8;
+                    visibility: visible;
+                }
+
+                &:hover img {
+                    transform: scale(1.05);
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: .2s;
+                }
+
+                p {
+                    padding: 35px;
+                    display: inline-block;
+                    position: absolute;
+                    color: $white;
+                    top: 0;
+                    left: 0px;
+                    font-size: $body-megaTitle;
+
+                    span {
+                        visibility: hidden;
+                        color: $white;
+                        opacity: 0;
+                        transition: opacity .5s;
+                        display: block;
+                        margin-top: 80px;
+                        font-size: $txt;
+                    }
+                }
+
+
+            }
+
+        }
+    }
+}
+
+@media (max-width : 500px) {
+    .log-section {
+
+        .inner {
+            .title {}
+
+            .content {
+
+                flex-direction: column;
+
+                .log-box {
+                    width: 80%;
+                    height: 220px;
+                    margin: auto;
+                    margin-bottom: 20px;
+                }
+
+
+            }
+        }
+    }
+
+    span.more {
+
+        visibility: visible !important;
+        color: $white;
+        opacity: 1 !important;
+        transition: opacity .5s;
+        display: block;
+        margin-top: 0;
+        margin-left: 180px;
+        font-size: $txt;
+    }
+}

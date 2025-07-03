@@ -1,0 +1,54 @@
+/* Font Family */
+$primary-kr : 'Pretendard',
+sans-serif;
+$primary-en : "Montserrat",
+sans-serif;
+
+// Font Sizes (기준: 1rem = 20px)
+$title: 3rem; // 60px
+$title-small: 2rem; // 40px
+$subTitle: 1.6rem; // 32px
+$subTitle-small: 1.4rem; // 28px
+$body-megaTitle: 1.2rem; // 24px
+$body-title: 1.1rem; // 22px
+$body: 1rem; // 20px
+$txt: 0.9rem; // 18px
+
+// Color Palette
+// Grayscale
+$main-black: #1D1D1D;
+$dim-black: #3C3C3C;
+$silver-black: #AAAAAA;
+$main-silver: #EFEFEF;
+$dim-gray: #919191;
+$silver-light: #B3B3B3;
+$white: #FFFFFF;
+
+// Point Colors
+$point-pink: #EE9DC2;
+$point-orange: #F34300;
+$point-red: #B2151A;
+$point-blue: #1F3063;
+$title-color: #FF0000;
+
+// Border
+$border-silver01: 1px solid #B3B3B3;
+$border-silver02: 2px solid #B3B3B3;
+
+// Border Radius
+$br20: 20px;
+$br8: 8px;
+
+// Padding
+$innerpadding: 160px 70px;
+$padding160: 160px 0;
+$padding70: 0 70px;
+$padding40: 0 40px;
+$padding20: 0 20px;
+
+// Margin
+$margin160: 160px 0;
+$margin80: 80px 0;
+$margin60: 60px 0;
+$margin20: 20px 0;
+$margin10: 10px 0;
