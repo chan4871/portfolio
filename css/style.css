@@ -1115,6 +1115,9 @@ main .intro-section .inner .downAni img {
 .popup-project .popup-project-inner .popup-text .popup-text-top h2.title-ebs {
   color: #1F3063;
 }
+.popup-project .popup-project-inner .popup-text .popup-text-top h2.title-pinkfong {
+  color: #ffd200;
+}
 .popup-project .popup-project-inner .popup-text .popup-text-top h5 {
   margin-top: 20px;
   margin-bottom: 15px;
@@ -1693,6 +1696,9 @@ main .intro-section .inner .downAni img {
 .project-section .inner .content .project-list .project-box:hover .mockup-wrap img.page-img04 {
   top: -730px;
 }
+.project-section .inner .content .project-list .project-box:hover .mockup-wrap img.page-img05 {
+  top: -730px;
+}
 .project-section .inner .content .project-list .project-box .mockup-wrap {
   width: 246px;
   height: 137px;
@@ -1732,6 +1738,16 @@ main .intro-section .inner .downAni img {
   transition: top 10s ease;
 }
 .project-section .inner .content .project-list .project-box .mockup-wrap img.page-img04 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: top 10s ease;
+  transition: top 10s ease;
+}
+.project-section .inner .content .project-list .project-box .mockup-wrap img.page-img05 {
   width: 100%;
   position: absolute;
   top: 0;
@@ -1829,6 +1845,9 @@ main .intro-section .inner .downAni img {
   .project-section .inner .content .project-list .project-box:hover .mockup-wrap img.page-img04 {
     top: -730px;
   }
+  .project-section .inner .content .project-list .project-box:hover .mockup-wrap img.page-img5 {
+    top: -730px;
+  }
   .project-section .inner .content .project-list .project-box .mockup-wrap {
     width: 246px;
     height: 137px;
@@ -1868,6 +1887,16 @@ main .intro-section .inner .downAni img {
     transition: top 10s ease;
   }
   .project-section .inner .content .project-list .project-box .mockup-wrap img.page-img04 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: top 10s ease;
+    transition: top 10s ease;
+  }
+   .project-section .inner .content .project-list .project-box .mockup-wrap img.page-img05 {
     width: 100%;
     position: absolute;
     top: 0;
