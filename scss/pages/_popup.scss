@@ -352,6 +352,9 @@ overflow-y: auto;
             .popup-text-bottom {
                 padding-top: 15px;
 padding-bottom: 60px;
+                hr{
+                    margin : 10px 0
+                }
                 p {
                     display: inline-block;
                     padding: 5px 0;
