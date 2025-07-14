@@ -38,7 +38,8 @@ const projectPopups = [
   { popup: document.querySelector('.popup-project01'), openBtn: document.querySelector('.Project-popup-btn01'), closeBtn: document.querySelector('.close-btn-Project01') },
   { popup: document.querySelector('.popup-project02'), openBtn: document.querySelector('.Project-popup-btn02'), closeBtn: document.querySelector('.close-btn-Project02') },
   { popup: document.querySelector('.popup-project03'), openBtn: document.querySelector('.Project-popup-btn03'), closeBtn: document.querySelector('.close-btn-Project03') },
-  { popup: document.querySelector('.popup-project04'), openBtn: document.querySelector('.Project-popup-btn04'), closeBtn: document.querySelector('.close-btn-Project04') }
+  { popup: document.querySelector('.popup-project04'), openBtn: document.querySelector('.Project-popup-btn04'), closeBtn: document.querySelector('.close-btn-Project04') },
+  { popup: document.querySelector('.popup-project04'), openBtn: document.querySelector('.Project-popup-btn05'), closeBtn: document.querySelector('.close-btn-Project05') }
 ];
 
 projectPopups.forEach(project => {
