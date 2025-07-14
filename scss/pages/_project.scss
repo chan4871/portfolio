@@ -242,7 +242,9 @@
                         &:hover .mockup-wrap img.page-img04 {
                             top: -730px;
                         }
-
+&:hover .mockup-wrap img.page-img05 {
+                            top: -730px;
+                        }
                         .mockup-wrap {
                             width: 246px;
                             height: 137px;
@@ -280,6 +282,14 @@
                             }
 
                             img.page-img04 {
+                                width: 100%;
+                                position: absolute;
+                                top: 0;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                transition: top 10s ease;
+                            }
+                            img.page-img05 {
                                 width: 100%;
                                 position: absolute;
                                 top: 0;
