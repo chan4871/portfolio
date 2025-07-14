@@ -40,9 +40,10 @@
     width: 85%;
     height: 95vh;
     border: $border-silver02;
-
+overflow-y: auto;
 
     &.active {
+        overflow-y: auto;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
@@ -172,8 +173,9 @@
     width: 75%;
     height: 75vh;
     border: $border-silver02;
- overflow-y: auto;
+    overflow-y: auto;
     &.active {
+        overflow-y: auto;
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
