@@ -1225,6 +1225,7 @@ main .intro-section .inner .downAni img {
 }
 .popup-project .popup-project-inner .popup-text .popup-text-bottom {
   padding-top: 15px;
+  padding-bottom : 60px;
 }
 .popup-project .popup-project-inner .popup-text .popup-text-bottom hr{
   margin : 10px 0;
