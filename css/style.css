@@ -306,7 +306,7 @@ footer .inner .footer-contact-box {
   background-color: #EFEFEF;
   margin: auto;
   margin-top: 40px;
-  padding: 40px;
+  padding: 30px;
 }
 footer .inner .footer-contact-box h5 {
   cursor: pointer;
@@ -931,6 +931,7 @@ main .intro-section .inner .downAni img {
   width: 85%;
   height: 95vh;
   border: 2px solid #B3B3B3;
+  overflow-y :scroll;
 }
 .popup-profile.active {
   opacity: 1;
@@ -1053,6 +1054,7 @@ main .intro-section .inner .downAni img {
   width: 75%;
   height: 75vh;
   border: 2px solid #B3B3B3;
+  overflow-y : scroll; 
 }
 .popup-project.active {
   opacity: 1;
