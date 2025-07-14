@@ -1054,7 +1054,7 @@ main .intro-section .inner .downAni img {
   width: 75%;
   height: 75vh;
   border: 2px solid #B3B3B3;
-  overflow-y : scroll; 
+  
 }
 .popup-project.active {
   opacity: 1;
@@ -1094,6 +1094,7 @@ main .intro-section .inner .downAni img {
 .popup-project .popup-project-inner .popup-text {
   width: 50%;
   height: 100%;
+  overflow-y : scroll; 
 }
 .popup-project .popup-project-inner .popup-text .popup-text-top {
   padding-bottom: 15px;
@@ -1406,7 +1407,7 @@ main .intro-section .inner .downAni img {
     width: 75%;
     height: 75vh;
     border: 2px solid #B3B3B3;
-    overflow-y: auto;
+    
   }
   .popup-project.active {
     opacity: 1;
@@ -1452,6 +1453,7 @@ main .intro-section .inner .downAni img {
   .popup-project .popup-project-inner .popup-text {
     width: 100%;
     height: 60%;
+    overflow-y: auto;
   }
   .popup-project .popup-project-inner .popup-text .popup-text-top {
     padding-bottom: 15px;
