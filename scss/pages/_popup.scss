@@ -230,6 +230,9 @@ overflow-y: auto;
                     &.title-ebs {
                         color: $point-blue;
                     }
+                    &.title-pinkfong {
+                        color: #ffd200;
+                    }
                 }
 
                 h5 {
@@ -285,7 +288,7 @@ overflow-y: auto;
                         &:hover {
                             background-color: #fff;
                             color: $point-pink;
-                            border: 1px solid #97A6D0;
+                            border: 1px solid $point-pink;
                         }
                     }
 
@@ -328,6 +331,19 @@ overflow-y: auto;
                             background-color: $white;
                             color: $point-blue;
                             border: 1px solid #97A6D0;
+                        }
+                    }
+                    .link-homepage.pinkfong {
+                        border: 1px solid #ffd200;
+                        color: $white;
+                        background-color: #ffd200;
+                        transition: .2s;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: $white;
+                            color: #ffd200;
+                            border: 1px solid #ffd200;
                         }
                     }
 
