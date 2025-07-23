@@ -1116,7 +1116,7 @@ main .intro-section .inner .downAni img {
   color: #1F3063;
 }
 .popup-project .popup-project-inner .popup-text .popup-text-top h2.title-pinkfong {
-  color: #ffd200;
+  color: #ff4dab;
 }
 .popup-project .popup-project-inner .popup-text .popup-text-top h5 {
   margin-top: 20px;
@@ -1217,17 +1217,17 @@ main .intro-section .inner .downAni img {
 }
 
 .popup-project .popup-project-inner .popup-text .popup-text-top .link-list .link-homepage.pinkfong {
-  border: 1px solid #ffd200;
+  border: 1px solid #ff4dab;
   color: #FFFFFF;
-  background-color: #ffd200;
+  background-color: #ff4dab;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   cursor: pointer;
 }
 .popup-project .popup-project-inner .popup-text .popup-text-top .link-list .link-homepage.pinkfong:hover {
   background-color: #FFFFFF;
-  color: #ffd200;
-  border: 1px solid #ffd200;
+  color: #ff4dab;
+  border: 1px solid #ff4dab;
 }
 .popup-project .popup-project-inner .popup-text .popup-text-middle {
   padding: 15px 0;
