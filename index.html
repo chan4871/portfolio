@@ -102,6 +102,17 @@
                         <label><input type="checkbox" name="filter" value="react">REACT</label>
                     </div>
                     <div class="project-list">
+                        <div class="project-box project-box05" data-filter="personal react scss">
+                            <img src="images/desk-pinkfong.png" alt="프로젝트 이미지" class="desk">
+                            <div class="mockup-wrap">
+                                <img src="images/pinkfong-desk.png" class="page-img05" alt="">
+                            </div>
+
+                            <button class="Project-popup-btn05">
+                                <span>미리보기</span>
+                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
+                            </button>
+                        </div>
                         <div class="project-box project-box01" data-filter="team html scss js">
                             <img src="images/desk-knotted.png" alt="프로젝트 이미지" class="desk">
                             <div class="mockup-wrap">
@@ -146,17 +157,7 @@
                                 <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
                             </button>
                         </div>
-                        <div class="project-box project-box05" data-filter="personal react scss">
-                            <img src="images/desk-pinkfong.png" alt="프로젝트 이미지" class="desk">
-                            <div class="mockup-wrap">
-                                <img src="images/pinkfong-desk.png" class="page-img05" alt="">
-                            </div>
-
-                            <button class="Project-popup-btn05">
-                                <span>미리보기</span>
-                                <iconify-icon icon="stash:search-solid" width="16" height="16"></iconify-icon>
-                            </button>
-                        </div>
+                        
                         <h5>다양한 사용자가 ‘편안하게 이용할 수 있는 구성’에<br>중점을 두어 페이지 흐름을 설계했습니다.</h5>
                     </div>
                 </div>
@@ -602,17 +603,28 @@
             </div>
             <div class="popup-text">
                 <div class="popup-text-top">
-                    <h2 class="title-ebs">핑크퐁_리액트 마이그레이션</h2>
-                    <h5>현재 개발 진행 중인 프로젝트입니다.</h5>
+                    <h2 class="title-ebs">핑크퐁_React 통합 SPA</h2>
+                   <h5>공식 웹사이트와 스토어 이커머스를 React 기반 SPA로 구현한 <b>개인 프로젝트</b>입니다.</h5>
                     <div class="link-list">
-                       
+                       <p>링크</p>
+                        <a href="https://github.com/chan4871/pinkfong.git" target="_blank" class="link-box link-readme">READMD</a>
+                        <a href="https://pinkfong.netlify.app/" target="_blank"
+                            class="link-box link-homepage pinkfong">HOMEPAGE</a>
                     </div>
                     <br>
                     <div class="popup-text-middle">
-                        
+                        <p><b>기간</b><span>7월 8일 - 7월 21일 (주말제외, 총 10일 소요)</span></p>
+                        <p><b>개선 부분</b><span>공식 웹 사이트의 메인페이지 및 스토어사이트 전체 </span></p>
+                        <p><b>사용 기술</b><span>React.js</span></p>
                     </div>
                     <div class="popup-text-bottom">
-                        
+                        <p><b>"효과적인 레이아웃 관리 전략"</b></p>
+                        <br>
+                        <p><b>문제</b><p>React SPA에서 핑크퐁 메인 홈페이지와 스토어 홈페이지 간의 이질적인 레이아웃(헤더/푸터)을 효율적으로 관리하고 렌더링하는 것이 주요 문제로 대두되었습니다. 초기에는 App.js 내에서 useLocation 훅을 활용한 조건부 렌더링을 고려했습니다. 그러나 이 방식은 애플리케이션 규모가 커질수록 App.js의 복잡도를 급증시키고, 코드 가독성 및 유지보수성을 저해하며, 단일 책임 원칙(SRP)에 위배되는 아키텍처적 한계를 명확히 인지했습니다. 이는 장기적인 프로젝트의 확장성과 협업 효율성 측면에서 큰 장애물이 될 것이라 판단했습니다.</p></p><br>
+                        <p><b>해결 방법</b><p>이러한 한계를 극복하고 구조적이며 확장 가능한 아키텍처를 구축하기 위해 레이아웃 컴포넌트 패턴을 채택했습니다. src/layouts 디렉토리에 MainLayout.js와 StoreLayout.js를 각각 정의하여, 각 도메인(메인/스토어)의 고유한 헤더, 푸터 및 공통 구조를 효과적으로 캡슐화했습니다. App.js에서는 더 이상 조건부 렌더링 로직을 직접 수행하지 않고, 각 라우트의 페이지 컴포넌트를 해당 도메인에 맞는 레이아웃 컴포넌트로 감싸는 방식으로 구조를 단순화했습니다. 이는 도메인별 레이아웃의 명확한 분리를 가능하게 했습니다.
+</p></p>
+                        <hr>
+                    <p>이러한 레이아웃 컴포넌트 기반의 접근 방식은 App.js의 책임 과중을 해소하고, 각 컴포넌트의 책임 영역을 명확히 분리하여 가독성과 유지보수성을 획기적으로 향상시켰습니다. 또한, 유연한 레이아웃 관리를 통해 애플리케이션의 확장성을 확보할 수 있었습니다. 이 경험을 통해 단순한 기능 구현을 넘어, 설계 원칙(예: SRP)을 준수하는 체계적인 아키텍처 설계가 프로젝트의 장기적인 건전성과 지속 가능성에 필수적임을 깊이 체감했습니다. 이는 제가 향후 프로젝트를 설계하고 개발하는 데 있어 중요한 기반 지식이 될 것입니다.</p>
                     </div>
                 </div>
                 
