@@ -1998,7 +1998,8 @@ main .intro-section .inner .downAni img {
   width: 15%;
 }
 .skill-section .inner .content-desk .skill-backend img {
-  width: 100%;
+  width: 175px;
+                    height : 45px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -2018,7 +2019,8 @@ main .intro-section .inner .downAni img {
   width: 15%;
 }
 .skill-section .inner .content-desk .skill-deployment img {
-  width: 100%;
+  width: 175px;
+                    height : 45px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -2038,7 +2040,8 @@ main .intro-section .inner .downAni img {
   width: 15%;
 }
 .skill-section .inner .content-desk .skill-design img {
-  width: 100%;
+  width: 175px;
+                    height : 45px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -2058,7 +2061,8 @@ main .intro-section .inner .downAni img {
   width: 15%;
 }
 .skill-section .inner .content-desk .skill-libraries img {
-  width: 100%;
+  width: 175px;
+                    height : 45px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
@@ -2078,7 +2082,8 @@ main .intro-section .inner .downAni img {
   width: 15%;
 }
 .skill-section .inner .content-desk .skill-frontend img {
-  width: 100%;
+  width: 175px;
+                    height : 45px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
