@@ -1074,7 +1074,7 @@ main .intro-section .inner .downAni img {
 }
 .popup-project .popup-project-inner .popup-img {
   width: 100%;
-  height: 100%;
+  height: 50%;
   position: relative;
 }
 .popup-project .popup-project-inner .popup-img img {
