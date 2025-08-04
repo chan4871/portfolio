@@ -1796,7 +1796,7 @@ main .intro-section .inner .downAni img {
 
 @media (max-width: 500px) {
   .project-section {
-    text-align: center;
+   
   }
   .project-section .inner .content .input-box label {
     display: inline-block;
