@@ -1643,7 +1643,7 @@ main .intro-section .inner .downAni img {
   font-size: 12px;
 }
 .project-section .inner .content .input-box label {
-  display: inline-block;
+  display: flex;
   width: 130px;
   cursor: pointer;
 }
@@ -1800,7 +1800,7 @@ main .intro-section .inner .downAni img {
    
   }
   .project-section .inner .content .input-box label {
-    display: inline-block;
+    display: flex;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
