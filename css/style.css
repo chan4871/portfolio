@@ -209,7 +209,7 @@ header .inner nav ul li a {
   transition: 0.2s;
 }
 header .inner nav ul li a:hover {
-  font-weight: 600;
+
   color : #FF0000;
 }
 header .inner .contact {
@@ -218,7 +218,7 @@ header .inner .contact {
   transition: 0.2s;
 }
 header .inner .contact:hover {
-  font-weight: 600;
+ 
     color : #FF0000;
 }
 header .inner .menu-bar {
