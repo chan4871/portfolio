@@ -293,6 +293,7 @@ header .inner .mobile-nav {
 }
 footer {
   padding: 160px 0;
+  background-color: #EFEFEF;
 }
 footer .inner h2 {
   text-align: center;
@@ -303,7 +304,7 @@ footer .inner .footer-contact-box {
   width: 520px;
   height: 200px;
   border-radius: 20px;
-  background-color: #EFEFEF;
+  background-color: #fff;
   margin: auto;
   margin-top: 40px;
   padding: 30px;
