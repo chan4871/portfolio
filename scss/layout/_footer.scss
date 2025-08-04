@@ -1,6 +1,6 @@
 footer {
     padding: $padding160;
-
+background-color: $main-silver;
     .inner {
         h2 {
             text-align: center;
@@ -12,7 +12,7 @@ footer {
             width: 520px;
             height: 200px;
             border-radius: $br20;
-            background-color: $main-silver;
+            background-color: #fff;
             margin: auto;
             margin-top: 40px;
             padding: 30px;
