@@ -1283,7 +1283,7 @@ main .intro-section .inner .downAni img {
     background-color: #FFFFFF;
     padding: 40px 20px;
     border-radius: 20px;
-    width: 85%;
+    width: 95%;
     height: 95vh;
     border: 2px solid #B3B3B3;
     overflow-y: auto;
@@ -1419,8 +1419,8 @@ main .intro-section .inner .downAni img {
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 20px;
-    width: 75%;
-    height: 75vh;
+    width: 95%;
+    height: 95vh;
     border: 2px solid #B3B3B3;
     
   }
