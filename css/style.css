@@ -682,7 +682,7 @@ main .intro-section .inner .downAni img {
 
 @media (max-width: 500px) {
   .intro-section .inner .intro-box {
-    width: 85%;
+    width: 95%;
   }
   .intro-section .inner .intro-box h1 {
     font-size: 32px;
