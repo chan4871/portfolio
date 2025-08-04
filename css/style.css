@@ -238,6 +238,9 @@ header .inner .mobile-nav {
   header .inner {
     width: 90%;
   }
+  header .inner .logo {
+  width: 110px;
+}
   header .inner nav,
   header .inner .contact {
     display: none;
