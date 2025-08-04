@@ -1374,7 +1374,6 @@ main .intro-section .inner .downAni img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 40px;
     margin-left: auto;
     width: 100%;
   }
