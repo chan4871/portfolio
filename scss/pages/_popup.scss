@@ -35,12 +35,12 @@
     z-index: 9999;
     position: fixed;
     background-color: $white;
-    padding: 50px;
+    padding: 20px;
     border-radius: $br20;
     width: 85%;
     height: 95vh;
     border: $border-silver02;
-overflow-y: auto;
+
 
     &.active {
         overflow-y: auto;
@@ -58,7 +58,7 @@ overflow-y: auto;
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
-
+overflow-y: auto;
         .profile-content01 {
             .title {
                 h4 {
