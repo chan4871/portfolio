@@ -1643,6 +1643,7 @@ main .intro-section .inner .downAni img {
   margin-top: 8px;
   color: #1D1D1D;
   font-size: 12px;
+  display : flex;
 }
 .project-section .inner .content .input-box label {
   display: flex;
