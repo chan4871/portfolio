@@ -926,7 +926,7 @@ main .intro-section .inner .downAni img {
   z-index: 9999;
   position: fixed;
   background-color: #FFFFFF;
-  padding: 50px;
+  padding: 20px;
   border-radius: 20px;
   width: 85%;
   height: 95vh;
