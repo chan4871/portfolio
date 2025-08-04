@@ -1640,6 +1640,7 @@ main .intro-section .inner .downAni img {
 .project-section .inner .content .input-box {
   margin-top: 8px;
   color: #1D1D1D;
+  font-size: 12px;
 }
 .project-section .inner .content .input-box label {
   display: inline-block;
