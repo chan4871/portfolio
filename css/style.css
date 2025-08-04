@@ -1598,10 +1598,10 @@ main .intro-section .inner .downAni img {
   }
   .popup-project .popup-project-inner .popup-text .popup-text-middle p b {
     display: inline-block;
-    width: 110px;
+    width: 100px;
   }
   .popup-project .popup-project-inner .popup-text .popup-text-middle p span {
-    width: 200px;
+    width: 100%;
     display: inline-block;
   }
   .popup-project .popup-project-inner .popup-text .popup-text-bottom {
