@@ -1965,7 +1965,7 @@ main .intro-section .inner .downAni img {
   padding-bottom: 20px;
 }
 .skill-section .inner {
-  width: 90%;
+  width: 1280px;
 }
 .skill-section .inner .title h4 {
   color: #FF0000;
@@ -2137,7 +2137,7 @@ main .intro-section .inner .downAni img {
     padding-bottom: 20px;
   }
   .skill-section .inner {
-    width: 80%;
+    width: 95%;
   }
   .skill-section .inner .title h4 {
     color: #FF0000;
