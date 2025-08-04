@@ -1502,6 +1502,7 @@ main .intro-section .inner .downAni img {
     display: inline-block;
     font-weight: bold;
     line-height: 20px;
+    width : 80px;
   }
   .popup-project .popup-project-inner .popup-text .popup-text-top .link-list .link-box {
     height: 42px;
