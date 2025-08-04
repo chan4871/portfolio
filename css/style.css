@@ -210,6 +210,7 @@ header .inner nav ul li a {
 }
 header .inner nav ul li a:hover {
   font-weight: 600;
+  color : #FF0000;
 }
 header .inner .contact {
   color: #3C3C3C;
