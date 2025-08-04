@@ -219,6 +219,7 @@ header .inner .contact {
 }
 header .inner .contact:hover {
   font-weight: 600;
+    color : #FF0000;
 }
 header .inner .menu-bar {
   display: none;
